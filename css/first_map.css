@@ -1,0 +1,29 @@
+#mapid {
+ height: 400px;
+ width: 100%;
+ margin-top: 3rem;
+ border: 1px solid #999;
+}
+
+#container {
+  margin: auto;
+  max-width: 750px;
+}
+
+#words {
+  width: 70%;
+}
+
+body {
+  background: #f5e9b8;
+  color: #000;
+}
+
+@media screen and (max-width: 600px){
+  #mapid {
+    height: 500px;
+  }
+  #words {
+    padding:2rem;
+  }
+}
